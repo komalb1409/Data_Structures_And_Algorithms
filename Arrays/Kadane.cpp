@@ -1,18 +1,14 @@
 #include<iostream>
+#include<climits>
 using namespace std;
 
 int main()
 {
-    int n;
-    cin>>n;
-    int arr[n];
-    for(int i =0 ; i<n ; i++){
-        cin>>arr[i];
-    }
+    int arr [] = {2,5,-3,2,9,1};
     int currentSum = 0;
     int maxSum = INT_MIN;
 
-    for(int i = 0 ; i<n ;i++)
+    for(int i = 0 ; i<6 ;i++)
     {
         currentSum+=arr[i];
         if(currentSum<0){
