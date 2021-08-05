@@ -14,7 +14,6 @@ int main()
             st.push(s[i]);
         }
 
-
         else if(s[i] == ')')
         {
             if(st.top() == '('){
@@ -29,5 +28,4 @@ int main()
     }
 
     cout<<ans;
-
 }
