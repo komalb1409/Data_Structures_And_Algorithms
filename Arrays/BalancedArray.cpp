@@ -4,6 +4,8 @@
 #include<math.h>
 using namespace std;
 
+#define n 100
+
  // } Driver Code Ends
 class Solution
 {
@@ -35,8 +37,7 @@ int main()
 	cin>>t;
 	while(t--)
 	{
-		int n;
-		cin>>n;
+	
 		int a[n];
 		for(int i=0;i<n;++i)
 			cin>>a[i];
