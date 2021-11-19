@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int arr [] = {2,5,-3,2,9,1};
+    int arr [] = {1,-2,3,4,4,-2};
     int currentSum = 0;
     int maxSum = INT_MIN;
 
